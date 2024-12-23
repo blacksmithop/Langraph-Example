@@ -11,3 +11,4 @@ def get_wikipedia_information(query: str):
     """Get information about a query from wikipedia."""
     print(f"[Wikipedia] Query: {query}")
     return wikipedia.run(query)
+    # TODO: Process this data
